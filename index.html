@@ -1,0 +1,187 @@
+
+<html>
+    <head>     
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/all.min.css">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/skitter.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/index_css.css">
+    </head>
+
+    <body>
+
+        <div class="title text-center text-white">
+          <h1 class="m-0 py-3">The movie DB</h1>
+        </div>
+       
+        <div class="side-bar h-100 ">
+          <div class="content text-white"> 
+            <ul class="list-unstyled p-3 mb-5 pb-5">
+                <li class="mb-2 movie-list">Now Playing</li>
+                <li class="mb-2 movie-list">Popular</li>
+                <li class="mb-2 movie-list">Top Rated</li>
+                <li class="mb-2 movie-list">Upcoming</li>
+                <li class="mb-2 contact">Contact Us</li>
+            </ul>
+
+            <div class="side-icons d-flex justify-content-start align-items-center p-3 pt-5 ps-2 ">
+              <i class="fab fa-facebook-f mb-3 p-2 ps-0 mt-5"></i>
+              <i class="fab fa-twitter mb-3 p-2 mt-5"></i>
+              <i class="fas fa-globe d-block mb-3 p-2 mt-5"></i>
+            </div>
+
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+
+          </div>
+
+          <div class="ribbon h-100 bg-white">
+            <i class="fas fa-film fa-3x p-3"></i>
+            <i class="trigger fas fa-bars"></i>
+            <!-- <i class="fas fa-times"></i> -->
+            <div class="pb-5">
+              <i class="fas fa-globe d-block mb-3"></i>
+            <i class="fas fa-share-alt d-block"></i>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="search m-0 py-3 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <input class="form-control  search1" type="text" placeholder="Search all movies">
+                    </div>
+                  <div class="col-md-3 ">
+                    <button class="btn btn-primary search1Btn ">Search all</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    
+                        <div class="col-md-9">
+                          <input class="form-control  search2" type="text" placeholder="Search">
+                        </div>
+                      <div class="col-md-3">
+                        <button class="btn btn-primary search2Btn ">Search in now playing</button>
+                      </div>
+                     
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+        </div>
+
+        <div class="current-title d-flex justify-content-center">
+          <h2 class="text-white">Now Playing</h2>
+        </div>
+
+        <div class="movie-display py-5">
+          <div class="container">
+            <div class="row row-main">
+              
+             
+
+            </div>
+
+            <!-- pagination -->
+
+            <div class="d-flex justify-content-center">
+              <div class="pageNum badge bg-warning text-dark"></div>
+            </div>
+            
+            <nav aria-label="Page navigation example ">
+              <ul class="pagination mt-4">
+               
+                <div class="pages d-flex flex-wrap">
+                 
+                </div>
+              
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- ============form=================== -->
+
+        <div class="form-section text-center pb-5">
+          <h2 class="text-white  ">Contact Us</h2>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form name" type="text" placeholder="Name">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  Your Name is not valid
+                </div>
+              </div>
+             
+
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form email" type="text" placeholder="Email">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  enter valid email
+                </div>
+              </div>
+
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form phone" type="text" placeholder="Phone">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  enter valid phone
+                </div>
+              </div>
+
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form age" type="text" placeholder="Age">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  enter valid Age *above 10*
+                </div>
+              </div>
+
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form pass1" type="text" placeholder="Password">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  enter valid password *Minimum eight characters*
+                </div>
+              </div>
+
+              <div class="col-md-6 py-3">
+                <input class="w-100 form-control form pass2" type="text" placeholder="Re-enter Password">
+                <div class="alert alert-danger text-start d-none" role="alert">
+                  passwords must match
+                </div>
+              </div>
+                            
+            </div>
+            <button class="btn btn-outline-danger mt-3 disabled">Submit</button>
+          </div>
+        </div>
+       <!----------------------------JS---------------------------->
+      <script src="js/jquery-3.6.0.min.js"></script>
+      
+      
+      <script src="js/bootstrap.bundle.min.js"></script>
+     
+      <script src="js/main.js"></script>
+    </body>
+</html>
